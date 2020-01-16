@@ -1,6 +1,7 @@
 body{
     background-color: black;
     height: 100vh;
+    width: 100vw;
     justify-content: center;
 }
 #particles-js{
@@ -15,4 +16,30 @@ background-color: black;
     margin-bottom: 50%;
     padding-left: 20vw;
     padding-right: 20vw;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-top:20px;
+    margin-right: auto;
+}
+img{
+    height: 300px;
+    width: 233px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+}
+.gamebox{
+    flex: 1 0 21%; 
+    margin: 5px;
+   
+}
+
+img:hover {
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow ;
 }

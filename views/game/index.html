@@ -8,8 +8,11 @@
 
     </head>
     <body>
+
+            <div class="flexbox">
+
         {{  #games  }}
-        <div id="particles-js">
+       <div class="gamebox">
             <a href="/game/{{ id }}">
                 <img src="public/{{  imagelocation  }}" alt="">
             </a>
@@ -17,7 +20,12 @@
 
         </div>
         {{  /games}}
-        <script src="public/particles.js"></script>
-        <script src="public/particleinit.js"></script>
+
+
+    </div>
+
+
+        <!-- <script src="public/particles.js"></script> -->
+        <!-- <script src="public/particleinit.js"></script> -->
     </body>
 </html>

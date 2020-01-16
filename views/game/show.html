@@ -4,21 +4,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>myArk||{{  name  }}</title><link rel="stylesheet" src="https://myark9101.herokuapp.com/public/style.css" type="text/css">
+        <title>myArk||{{  name  }}</title><link
+            rel="stylesheet"
+            src="https://myark9101.herokuapp.com/public/style.css"
+            type="text/css">
+        <style>
+            body {
+                height: 95vh;
+                width: 100vw;
+                background-color: black;
+            }
+
+            div {
+                width: 600px;
+                height: 450px;
+                /* margin-right: auto; */
+                /* margin-left: auto; */
+                margin: 10vh auto auto;
+            }
+        </style>
 
     </head>
     <body>
-  
-        <div id="particles-js">
-            <a href="/game">
-               go Back
-            </a>
-            <h3>{{ name }}</h3>
-            <iframe src="{{  link  }}" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
-           
+
+        <a href="/game">
+            <h1>Go Back</h1>
+        </a>
+        <h3>{{ name }}</h3>
+
+        <div>
+            <iframe
+                src="{{  link  }}"
+                width="600"
+                height="450"
+                frameborder="no"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+                scrolling="no"></iframe>
+
         </div>
-    
-        <script src="public/particles.js"></script>
-        <script src="public/particleinit.js"></script>
+
+        <!-- <script src="public/particles.js"></script> <script
+        src="public/particleinit.js"></script> -->
     </body>
 </html>
