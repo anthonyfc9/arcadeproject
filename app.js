@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 9000;
 app.engine('html', mustacheExpress());
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
-app.use(express.static(__dirname + '/public'));
+app.use("/public/", express.static('./public/'));
 
 // body-parser setup
 app.use(bodyParser.urlencoded({ extended: false }));

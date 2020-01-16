@@ -1,6 +1,7 @@
 body{
     background-color: black;
     height: 100vh;
+    justify-content: center;
 }
 #particles-js{
 height: 100%;
