@@ -1,6 +1,12 @@
 body{
     background-color: black;
+    height: 100vh;
 }
+#particles-js{
+height: 100%;
+background-color: black;
+}
+
 .startbutton{
     width: 60vw;
     height: auto;
